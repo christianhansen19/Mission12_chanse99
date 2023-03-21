@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ReactDOM from 'react-dom';
 
-function Welcome() {
+function Heading() {
   return (<h1>College Basketball Teams</h1>);
 }
 
@@ -340,8 +340,8 @@ class Team extends React.Component < {school:string, name: string, city: string,
     return (
       <div>
         <h2>{oneTeam.school}</h2>
-        <h3>Mascot: {oneTeam.name}</h3>
-        <h3>Location: {oneTeam.city}, {oneTeam.state}</h3>
+        <h4>Mascot: {oneTeam.name}</h4>
+        <h4>Location: {oneTeam.city}, {oneTeam.state}</h4>
         <br/>
       </div>
 
@@ -372,7 +372,7 @@ function App() {
         </p>
       </header> */}
 
-      <Welcome/>
+      <Heading/>
 
       <br />
 
